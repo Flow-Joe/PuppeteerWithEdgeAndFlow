@@ -1,7 +1,8 @@
 import * as puppeteer from 'puppeteer';
 
 const puppeterOptions = {
-    executablePath: 'C:\\Program Files (x86)\\Microsoft\\Edge Dev\\Application\\msedge.exe',
+    headless: false,
+    executablePath: 'C:\\Users\\joe\\AppData\\Local\\Microsoft\\Edge SxS\\Application\\msedge.exe',
 };
 
 export default async () => {
